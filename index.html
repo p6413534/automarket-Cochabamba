@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMarket Cochabamba</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href=".html">
+    <link rel="stylesheet" href="pagina1.html">
+    <link rel="stylesheet" href="pagina2.html">
+    <link rel="stylesheet" href="pagina3.html">
+</head>
+<body>
+    <!-- HEADER: SELECTOR DE ETIQUETA -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="AutoMarket Cochabamba" style="height: 190px; width: 250px;">
+        </div>
+        <h1>AUTOMARKET COCHABAMBA</h1>
+        <nav>
+            <a href="#autos">Autos</a>
+            <a href="#precios">Precios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN AUTOS: SELECTOR ID -->
+        <section id="autos">
+            <h2>AUTOS DESTACADOS</h2>
+            <div class="contenedor-cards">
+                
+                <!-- CARD 1: SELECTOR CLASE -->
+                <article class="card">
+                    <img src="img/Auto1.jpg" alt="Toyota Corolla 2022">
+                    <h3>TOYOTA COROLLA 2022</h3>
+                    <p>Motor 1.8, automatico, 45.000 km. Impecable</p>
+                    <span class="precio">Bs 125.000</span>
+                    <!-- TOYOTA COROLLA 2022 -->
+                    <button class="btn-detalle"
+                    data-titulo="TOYOTA COROLLA 2022"
+                    data-precio="Bs 125.000"
+                    data-img="img/Auto1.jpg"
+                    data-motor="1.8L, 168 HP"
+                    data-km="45.000 km"
+                    data-caja="Automatica CVT"
+                    data-desc="Impecable,unico dueño">
+                    Ver Detalle
+                </button>
+                </article>
+                
+                <article class="card">
+                    <img src="img/Auto2.jpg" alt="Hyundai Tucson 2021">
+                    <h3>HYUNDAI TUCSON 2021</h3>
+                    <p>SUV 4x4, full equipo, unico dueño.</p>
+                    <span class="precio">Bs 185.000</span>
+                    <!-- HYUNDAI TUCSON 2021 -->
+                    <button class="btn-detalle"
+                    data-titulo="HYUNDAI TUCSON 2021"
+                    data-precio="Bs 185.000"
+                    data-img="img/Auto2.jpg"
+                    data-motor="2.0L Turbo, 226 HP"
+                    data-km="60.000 km"
+                    data-caja="Automatica 8 vel"
+                    data-desc="SUV 4*4 Full equipado. Techo panoramico,cuerpo, camara 360">
+                    Ver Detalle
+                </button>
+                </article>
+
+                <article class="card">
+                    <img src="img/Auto3.jpg" alt="Suzuki Swift 2023">
+                    <h3>SUZUKI SWIFT 2023</h3>
+                    <p>1.2 mecanico, 15.000 km. Economico y nuevo.</p>
+                    <span class="precio">Bs 95.000</span>
+                    <!--SUZUKI SWIFT 2023 -->
+                    <button class="btn-detalle"
+                    data-titulo="SUZUKI SWIFT 2023"
+                    data-precio="Bs 95.000"
+                    data-img="img/Auto3.jpg"
+                    data-motor="1.2L 4 cilindros Dualjet, 83 HP"
+                    data-km="15.000 km"
+                    data-caja="Mecanica 5 velocidades"
+                    data-color="Blanco Perlado"
+                    data-desc="Economico y nuevo. Ideal para ciudad.Consumo 20 km/1 en ciudad.">
+                    Ver Detalle
+                </button>
+                </article>
+
+                <article class="card">
+                    <img src="img/Auto4.jpg" alt="Toyota RAV4 2020">
+                    <h3>TOYOTA RAV4 2020</h3>
+                    <p>4x4, 60.000 km, caja automatica. Ideal familia</p>
+                    <span class="precio">Bs 165.000</span>
+                    <!-- TOYOTA RAV4 2020-->
+                    <button class="btn-detalle"
+                    data-titulo="TOYOTA RAV4 2020"
+                    data-precio="Bs 165.000"
+                    data-img="img/Auto4.jpg"
+                    data-motor="2.5L 4 cilindros, 203 HP"
+                    data-km="60.000 km"
+                    data-caja="Automatica 8 velocidades"
+                    data-color="Gris Metalico"
+                    data-desc="SUV familiar 4*4. Espacioso y confiable.Techo solar, asientos de cuero.">
+                    Ver Detalle
+                </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TABLA: TABLAS -->
+        <section id="precios">
+            <h2>LISTA DE PRECIOS</h2>
+            <table class="tabla-precios">
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Año</th>
+                        <th>Kilometraje</th>
+                        <th>Precio Bs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toyota Corolla</td>
+                        <td>2022</td>
+                        <td>45.000 km</td>
+                        <td>125.000</td>
+                    </tr>
+                    <tr>
+                        <td>Hyundai Tucson</td>
+                        <td>2021</td>
+                        <td>52.000 km</td>
+                        <td>185.000</td>
+                    </tr>
+                    <tr>
+                        <td>Suzuki Swift</td>
+                        <td>2023</td>
+                        <td>15.000 km</td>
+                        <td>95.000</td>
+                    </tr>
+                    <tr>
+                        <td>Toyota RAV4</td>
+                        <td>2020</td>
+                        <td>60.000 km</td>
+                        <td>165.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="pagina1.html" target="_blank">Soporte</a>
+                <a href="pagina2.html" target="_blank">Privacidad</a>
+                <a href="pagina3.html" target="_blank">Terminos</a>
+            </div>
+            <a href="https://wa.me/59175930034?text=Hola%20quiero%20informacion"
+               targert="_blank"
+               rel="noopener noreferrer"
+               class="btn-whatsapp">
+                >>WhatsApp<<
+            </a>
+            <div class="footer-bottom">
+                <samp>&copy;2026 AutoMarket CBBA | Av.America #1234 | Tel:759-30034</samp>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal oculto -->
+<div id="modal-auto" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999;">
+  <div style="background:white; margin:5% auto; padding:30px; width:90%; max-width:700px; border-radius:15px; position:relative; max-height:90vh; overflow-y:auto;">
+    <span id="cerrar-modal" style="position:absolute; right:20px; top:10px; font-size:35px; cursor:pointer; color:#999;">&times;</span>
+    <div id="contenido-modal"></div>
+  </div>
+</div>
+
+<script>
+const botones = document.querySelectorAll('.btn-detalle');
+const modal = document.getElementById('modal-auto');
+const contenido = document.getElementById('contenido-modal');
+const cerrar = document.getElementById('cerrar-modal');
+
+botones.forEach(boton => {
+  boton.addEventListener('click', () => {
+    const d = boton.dataset; // Lee todos los data- del botón clickeado
+    
+    contenido.innerHTML = `
+      <img src="${d.img}" style="width:100%; border-radius:10px; margin-bottom:20px;">
+      <h2 style="font-size:28px; margin-bottom:10px; color:#333;">${d.titulo}</h2>
+      <p style="color:#e91e63; font-size:32px; font-weight:bold; margin:15px 0;">${d.precio}</p>
+      
+      <div style="margin:20px 0;">
+        <p><b>Motor:</b> ${d.motor}</p>
+        <p><b>Kilometraje:</b> ${d.km}</p>
+        <p><b>Caja:</b> ${d.caja}</p>
+        <p style="margin-top:15px;"><b>Detalles:</b> ${d.desc}</p>
+      </div>
+      
+      <button style="background:#25D366; color:white; border:none; padding:15px; width:100%; border-radius:8px; font-size:18px; margin-top:20px; cursor:pointer;" 
+        onclick="window.open('https://wa.me/59175930034?text=Hola%20quiero%20informacion, vi el ${d.titulo} en ${d.precio}', '_blank')">
+        📱 Consultar por WhatsApp
+      </button>
+    `;
+    modal.style.display = 'block';
+  });
+});
+
+cerrar.onclick = () => modal.style.display = 'none';
+window.onclick = e => { if(e.target == modal) modal.style.display = 'none' }
+</script>
+</body>
+</html>
